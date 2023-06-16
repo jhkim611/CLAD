@@ -25,7 +25,7 @@ in the absence of ground-truth class label information.
 
 ## Overall Framework
 
-[architecture.pdf](https://github.com/jhkim611/LAAD/files/11767302/architecture.pdf)
+![architecture](https://github.com/jhkim611/LAAD/assets/86581545/e525918f-2f35-4237-bcbb-385bee0834df)
 
 ## How to run LAAD
 
