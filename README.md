@@ -1,6 +1,8 @@
 # Label-Aware Graph Anomaly Detection
 
-The official source code for Label-Aware Graph Anomaly Detection
+The official source code for Label-Aware Graph Anomaly Detection.
+
+## Abstract
 
 Graph anomaly detection (GAD) methods aim to find nodes that
 show devious patterns in comparison to other nodes, which are
