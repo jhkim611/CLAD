@@ -1,6 +1,6 @@
-# Label-Aware Graph Anomaly Detection
+# Class Label-aware Graph Anomaly Detection
 
-The official source code for Label-Aware Graph Anomaly Detection.
+The official source code for Class Label-aware Graph Anomaly Detection.
 
 ## Abstract
 
@@ -15,12 +15,12 @@ of class labels* (the class a node belongs to used in a general node
 classification task). In this work, we study the utility of class labels
 for unsupervised GAD, i.e., we study how the class label informa-
 tion of nodes enhances the detection of structural anomalies in
-particular. To this end, we propose a **Label-Aware Graph Anomaly
-Detection framework (LAAD)** that utilizes a limited amount of
+particular. To this end, we propose a **Class Label-aware Graph Anomaly
+Detection framework (CLAD)** that utilizes a limited amount of
 labeled nodes to enhance the performance of unsupervised GAD.
 Extensive experiments on ten datasets, including both synthetic
 and real-world datasets, demonstrate the superior performance of
-LAAD in comparison to existing unsupervised GAD methods, even
+CLAD in comparison to existing unsupervised GAD methods, even
 in the absence of ground-truth class label information.
 
 ## Datasets
@@ -31,7 +31,7 @@ Each 'dataset_name.mat' contains the following attributes:
 * **clabels** : the class label information of each node in graph 'dataset_name', stored as a numpy array. For graphs not containing any ground-truth labels, e.g., Automotive, an empty array will be returned.
 * **alabels** : the anomaly label information of each node in graph 'dataset_name', stored as a numpy array(0: benign, 1: anomaly). This information is only used for evaluation.
 
-## How to run LAAD
+## How to run CLAD
 
 After unzipping 'dataset.zip', folder 'dataset' should be in the same directory as 'run.py' and 'utils.py'.
 
