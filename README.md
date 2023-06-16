@@ -1,4 +1,6 @@
-# Abstract
+# Label-Aware Graph Anomaly Detection
+
+The official source code for Label-Aware Graph Anomaly Detection
 
 Graph anomaly detection (GAD) methods aim to find nodes that
 show devious patterns in comparison to other nodes, which are
@@ -12,7 +14,7 @@ classification task). In this work, we study the utility of class labels
 for unsupervised GAD, i.e., we study how the class label informa-
 tion of nodes enhances the detection of structural anomalies in
 particular. To this end, we propose a Label-Aware Graph Anomaly
-Detection framework (LAAD)1 that utilizes a limited amount of
+Detection framework (LAAD) that utilizes a limited amount of
 labeled nodes to enhance the performance of unsupervised GAD.
 Extensive experiments on ten datasets, including both synthetic
 and real-world datasets, demonstrate the superior performance of
