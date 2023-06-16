@@ -4,8 +4,8 @@ After unzipping 'dataset.zip', folder 'dataset' should be in the same directory 
 
 The LAAD framework can be run by the following command:
 
-'''
-  python run.py
-'''
+```
+python run.py
+```
 
 with appropriate parameters.
