@@ -1,5 +1,12 @@
 # Class Label-aware Graph Anomaly Detection
 
+<p align="center">   
+    <a href="https://pytorch.org/" alt="PyTorch">
+      <img src="https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?e&logo=PyTorch&logoColor=white" /></a>
+    <a href="https://uobevents.eventsair.com/cikm2023//" alt="Conference">
+        <img src="https://img.shields.io/badge/CIKM'23-green" /></a>
+</p>
+
 The official source code for "Class Label-aware Graph Anomaly Detection", accepted at CIKM 2023.
 
 ## Overview
@@ -7,7 +14,7 @@ The official source code for "Class Label-aware Graph Anomaly Detection", accept
 Unsupervised GAD methods assume the lack of anomaly labels, i.e., whether a node is anomalous or not. 
 One common observation we made from previous unsupervised methods is that they not only assume the absence of such anomaly labels, but also the *absence of class labels* (the class a node belongs to used in a general node classification task). In this work, we study the utility of class labels for unsupervised GAD; in particular, how they enhance the detection of *structural anomalies*. To this end, we propose a **Class Label-aware Graph Anomaly Detection framework (CLAD)** that utilizes a limited amount of labeled nodes to enhance the performance of unsupervised GAD. Extensive experiments on ten datasets  demonstrate the superior performance of CLAD in comparison to existing unsupervised GAD methods, even in the absence of ground-truth class label information.
 
-![architecture](https://github.com/jhkim611/a/assets/86581545/cd2f3001-45af-4da0-8235-f84b3f74653b)
+![architecture](https://github.com/jhkim611/CLAD/assets/86581545/017be3dc-c1ff-437d-a9b0-7046aba94252)
 
 ## Datasets
 
