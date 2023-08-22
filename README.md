@@ -7,8 +7,7 @@ The official source code for "Class Label-aware Graph Anomaly Detection", accept
 Unsupervised GAD methods assume the lack of anomaly labels, i.e., whether a node is anomalous or not. 
 One common observation we made from previous unsupervised methods is that they not only assume the absence of such anomaly labels, but also the *absence of class labels* (the class a node belongs to used in a general node classification task). In this work, we study the utility of class labels for unsupervised GAD; in particular, how they enhance the detection of *structural anomalies*. To this end, we propose a **Class Label-aware Graph Anomaly Detection framework (CLAD)** that utilizes a limited amount of labeled nodes to enhance the performance of unsupervised GAD. Extensive experiments on ten datasets  demonstrate the superior performance of CLAD in comparison to existing unsupervised GAD methods, even in the absence of ground-truth class label information.
 
-[architecture.pdf](https://github.com/jhkim611/a/files/12405011/architecture.pdf)
-
+![architecture](https://github.com/jhkim611/a/assets/86581545/cd5798f1-4cf9-4fd4-baf1-284edd6984df)
 
 ## Datasets
 
