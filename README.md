@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/CIKM'23-green" /></a>
 </p>
 
-The official source code for "Class Label-aware Graph Anomaly Detection", accepted at CIKM 2023.
+The official source code for "[Class Label-aware Graph Anomaly Detection](https://arxiv.org/abs/2308.11669)", accepted at CIKM 2023.
 
 ## Overview
 
