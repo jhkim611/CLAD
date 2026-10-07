@@ -35,3 +35,16 @@ python run.py --dataset citeseer --gtcl true --num_epoch 500 --nhid 16 --dropout
 ```
 
 would train a two-layer GCN model with latent dimension=16 and dropout=0.5 for 500 iterations. Then the final anomaly detection score with $\alpha=0.2$ is returned.
+
+## Citation
+
+```bibtex
+@inproceedings{kim2023clad,
+  title={Class Label-aware Graph Anomaly Detection},
+  author={Kim, Junghoon and In, Yeonjun and Yoon, Kanghoon and Lee, Junmo and Park, Chanyoung},
+  booktitle={Proceedings of the 32nd ACM International Conference on Information and Knowledge Management},
+  pages={4008--4012},
+  year={2023},
+  doi={10.1145/3583780.3615249}
+}
+```
